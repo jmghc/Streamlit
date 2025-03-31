@@ -30,4 +30,5 @@ modelo = {
 # Serializar con pickle
 with open("svm_digits_model.pkl", "wb") as f:
     pickle.dump(modelo, f)
-st.markdown("Modelo cargado")
+st.success("✅ Modelo cargado exitosamente!")
+st.markdown("<h1 style='text-align: center; color: green;'>🚀 ¡El modelo ha sido cargado correctamente! ✅</h1>", unsafe_allow_html=True)
