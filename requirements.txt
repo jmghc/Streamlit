@@ -1,0 +1,6 @@
+numpy
+Pillow
+scikit_learn
+streamlit
+streamlit_drawable_canvas
+streamlit_option_menu
